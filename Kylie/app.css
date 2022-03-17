@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(218, 210, 210);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  align-items: center;
+}
+
+.wrapper button {
+  margin-bottom: 2rem;
+  width: 150px;
+  text-align: center;
+}
+
+img {
+  display: none;
+}
+
+.image-active {
+  display: block;
+  width: 100%;
+}
